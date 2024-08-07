@@ -79,6 +79,4 @@ test:
 #
 production:
   <<: *default
-  database: comet1_production
-  username: comet1
-  password: <%= ENV["COMET1_DATABASE_PASSWORD"] %>
+  url: "postgresql://planet_kvzq_user:akhyv0FAnGYDA7mo7210v9qm6LqxDWkI@dpg-cqlojmjv2p9s73b9g710-a.oregon-postgres.render.com/planet_kvzq"
